@@ -3,15 +3,13 @@ module.exports = {
     id: {
       type: "number",
       required: true,
+      autoIncrement: true
     },
     warranty_code: {
       type: "string",
       required: true,
     },
     customer_id: {
-      type: "string",
-    },
-    invoice_number: {
       type: "string",
       required: true,
     },
@@ -32,11 +30,13 @@ module.exports = {
     quantity: {
       type: "number",
     },
-    created_at: {
+    createdAt: {
       type: "string",
+      autoCreatedAt: true,
     },
-    updated_at: {
+    updatedAt: {
       type: "string",
+      autoUpdatedAt: true
     },
   },
 };

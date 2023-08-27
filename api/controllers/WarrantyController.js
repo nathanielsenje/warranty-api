@@ -83,7 +83,7 @@ module.exports = {
         updated_at,
       });
       if (!updatedCustomer) {
-        return res.notFound("Warranty not found");
+        return res.notFound("Warranty not found!");
       }
       return res.json(updatedCustomer);
     } catch (err) {
@@ -97,7 +97,7 @@ module.exports = {
       if (!deletedCustomer) {
         return res.notFound("Warranty not found");
       }
-      return res.json({ message: "Warranty deleted successfully" });
+      return res.json({ message: "Warranty deleted successfully!" });
     } catch (err) {
       return res.serverError(err);
     }

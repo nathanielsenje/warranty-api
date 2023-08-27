@@ -1,11 +1,11 @@
 module.exports.datastores = {
   default: {
     adapter: "sails-mysql",
-    url: "host-3.hosting.liquidtelecom.co.ke",
-    host: "localhost",
+    host: "sql7.freemysqlhosting.net",
     port: 3306,
-    user: "alafco_user",
-    password: "XpqtYZ@zCb5Hwf",
-    database: "alafco_warranty",
+    user: "sql7642650",
+    password: "aDQT3R4AS8",
+    database: "sql7642650",
   },
 };
+

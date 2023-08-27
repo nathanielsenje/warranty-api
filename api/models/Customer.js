@@ -2,7 +2,7 @@ module.exports = {
   attributes: {
     id: {
       type: "number",
-      required: true,
+      autoIncrement: true
     },
     customer_id: {
       type: "string",
@@ -31,11 +31,13 @@ module.exports = {
     id_number: {
       type: "string",
     },
-    created_at: {
+    createdAt: {
       type: "string",
+      autoCreatedAt: true,
     },
-    updated_at: {
+    updatedAt: {
       type: "string",
+      autoUpdatedAt: true
     },
   },
 };

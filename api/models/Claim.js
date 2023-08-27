@@ -22,11 +22,13 @@ module.exports = {
       type: "string",
       required: true,
     },
-    created_at: {
+    createdAt: {
       type: "string",
+      autoCreatedAt: true,
     },
-    updated_at: {
+    updatedAt: {
       type: "string",
+      autoUpdatedAt: true
     },
   },
 };
